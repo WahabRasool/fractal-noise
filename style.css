@@ -1,0 +1,25 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	width: 100%; /* Past zich aan de breedte van het scherm aan */
+	max-width: 1024px; /* Maximale breedte */
+	aspect-ratio: 1/1; /* Houdt een 1:1 verhouding vast (1024px x 1024px) */
+	background-image: url("https://iili.io/2HB886N.jpg");
+	background-size: cover; /* Zorgt dat de afbeelding de hele container bedekt */
+	background-position: center; /* Centreert de afbeelding */
+	background-repeat: no-repeat;
+}
+
+.smoke {
+	filter: url("#filter");
+}
